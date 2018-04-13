@@ -115,5 +115,5 @@ module_param_cb(gpio_blink_interval_s, &kp_ops, &gpio_blink_interval_s, 0660);
 MODULE_PARM_DESC(gpio_blink_interval_s, "Blink interval in seconds");
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Maksim Aleksejev");
+MODULE_AUTHOR("mks-a");
 MODULE_DESCRIPTION("Blink module will blink LED, which is connected to PIN37 (GPIOC21)");
