@@ -1,4 +1,3 @@
-//#include "allwinner_h3_core/pio_ports.h"
 #include <linux/kernel.h>	// We are doing kernel programming
 #include <linux/module.h>	/* Specifically a module */
 #include <linux/gpio.h>
