@@ -79,6 +79,7 @@ static int blink_module_init(void)
 	if(err)
 	{
 		printk(KERN_ALERT "gpio_direction_output failed %d\n", err);
+		gpio_free(BLINK_PIN_NR);
 		return err;
 	}
 
